@@ -1,0 +1,71 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #f6f7d4; /* Warna kuning muda */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #ffffff; /* Warna putih */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ff6699; /* Warna pink */
+}
+
+.input-group,
+
+.output-group {
+    margin-bottom: 30px;
+}
+
+input,
+select {
+    width: calc(100% - 20px); /* Mengurangi padding dari lebar total */
+    padding: 12px;
+    border: 2px solid #ff6699; /* Warna pink */
+    border-radius: 10px;
+}
+
+button {
+    display: block;
+    width: calc(100% - 2px); /* Mengurangi padding dari lebar total */
+    padding: 14px;
+    background-color: #ff6699; /* Warna pink */
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff3366; /* Warna merah muda */
+}
+
+.output-group {
+    margin-bottom: 20px;
+}
+
+.output-group div {
+    padding: 14px;
+    margin-bottom: 15px;
+    background-color: #f3e0ec; /* Warna pink muda */
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.output-group div span {
+    font-weight: bold;
+    color: #ff3366; /* Warna merah muda */
+}
+
+.output-group div:nth-child(odd) {
+    background-color: #f8d7da; /* Warna merah muda */
+}
